@@ -13,4 +13,4 @@ nginx:
   links:
     - node
   ports:
-    - "80:80"
+    - "3001:80"

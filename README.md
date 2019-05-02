@@ -33,15 +33,14 @@ Recommended folder structure for sharing components
 ```
 app/
   |--/mobile/ # add here only mobile components
+      |--/views/
   |--/pub
       |--/web
            |--/static
       |--/mobile
            |--/assets
   |--/web/ # add here only web components
+      |--/views/
   |--/shared/ # add here all shared components
-  |--/layouts/
-  |--/views/
-      |--/mobile/
-      |--/web/
+
 ```
