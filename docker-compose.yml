@@ -1,10 +1,10 @@
 node:
   build: ./app
   volumes:
-    - ./app:/src/app
+    - ./app:/usr/src/app
   ports:
     - "3000"
-  command: npm start
+  command: yarn start
 
 nginx:
   build: ./nginx
